@@ -6,8 +6,8 @@
   "scripts": {
     "test": "node_modules\\.bin\\cypress run",
     "headTest": "npm run test -- --headed",
-    "headlessTest" : "npm run test -- --headless",
-    "chromeHeadTest" : "npm run test -- --browser chrome"
+    "chromeTest" : "npm run test -- --record --key",
+    "recordDashBoardTest" : "npm run test -- --record --key 35dfe568-002e-439b-bb49-dd17ad836dd4 --reporter mochawesome"
   },
   "keywords": [],
   "author": "",
